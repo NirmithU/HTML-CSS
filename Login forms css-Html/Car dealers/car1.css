@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(6, 49, 90);
+    /* background: url(ph1.png); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.frm{
+    width:370px;
+    height: auto;
+    background-color: rgba(155, 117, 151, 0.3);
+    margin: 250px auto;
+    color: rgb(237, 237, 243);
+    padding: 10px 20px 30px;
+    border-radius: 50px;
+}
+.frm h2{
+    text-align: center;
+    color: rgb(12, 220, 235);
+}
+.frm .lbl{
+    display: block;
+}
+.input input{
+    width : 100% ;
+    font-size: 1.2em;
+    border: 1px solid #006d77;
+    box-shadow: 2px;
+    border-radius: 50px;
+    padding: 10px 10px;
+    box-sizing:border-box;
+    margin: 10px 14px 20px;
+
+}
+
+input:focus{
+    background-color: rgb(148, 188, 201);
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(114, 201, 228);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 15, 15);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(51, 235, 38);
+    width: 200px;
+}
+
+.radio input{
+    accent-color: green;
+}
+
